@@ -4,7 +4,6 @@ from airflow import DAG
 
 from airflow.providers.amazon.aws.sensors.s3 import S3KeySensor
 
-
 default_args = {
     "owner": "Luciano",
     "start_date": datetime(2023, 11, 2),
